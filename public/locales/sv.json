@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "home": "Hem",
+    "agents": "Mäklare",
+    "developments": "Projekt",
+    "blog": "Blogg",
+    "contact": "Kontakt",
+    "agentLogin": "Mäklarinlogg →"
+  },
+  "hero": {
+    "headline": "Din Drömfastighet vid Costa del Sol",
+    "subheadline": "Experthjälp, exklusiva nybyggnadsprojekt och ett nästa generations förhållningssätt till fastigheter i Marbella.",
+    "cta": "Begär Information",
+    "ctaSecondary": "Se Projekt"
+  },
+  "valueProps": {
+    "title": "Varför MARBELLASOL?",
+    "prop1Title": "Internationell Expertis",
+    "prop1Desc": "Vårt flerspråkiga team hjälper köpare från hela Europa med djup lokal kunskap om Costa del Sol.",
+    "prop2Title": "Exklusiva Projekt",
+    "prop2Desc": "Tillgång till icke-publicerade listings och förköpspriser på regionens mest efterfrågade nybyggnadsprojekt.",
+    "prop3Title": "Helhetstjänst",
+    "prop3Desc": "Från fastighetsökning till juridisk rådgivning och nyckelöverlämning — vi hanterar varje steg i ditt köp.",
+    "prop4Title": "AI-Plattform",
+    "prop4Desc": "Vår nästa generations plattform kopplar dig med rätt fastighet och rätt mäklare vid rätt tidpunkt."
+  },
+  "agents": {
+    "title": "Möt Våra Mäklare",
+    "subtitle": "Specialister som förstår din marknad, ditt språk och din vision.",
+    "contact": "Kontakta Mäklare",
+    "viewAll": "Se Alla Mäklare"
+  },
+  "developments": {
+    "title": "Utvalda Projekt",
+    "subtitle": "Handplockade fastigheter från de bästa byggherrarna vid Costa del Sol.",
+    "viewAll": "Se Alla Projekt",
+    "exclusiveListing": "Exklusivt Listing",
+    "premiumDevelopment": "Premiumprojekt",
+    "learnMore": "Läs Mer",
+    "from": "Från"
+  },
+  "blog": {
+    "title": "Fastighetsguider",
+    "subtitle": "Expertguider om att köpa fastighet i Spanien, investeringsmöjligheter och marknadsanalys.",
+    "readMore": "Läs Mer",
+    "viewAll": "Se Alla Artiklar"
+  },
+  "contact": {
+    "title": "Kontakta Oss",
+    "subtitle": "Berätta vad du letar efter och en av våra specialister hör av sig inom 24 timmar.",
+    "name": "Fullständigt Namn",
+    "email": "E-postadress",
+    "phone": "Telefonnummer",
+    "message": "Ditt Meddelande",
+    "messagePlaceholder": "Berätta om din idealfastighet — läge, budget, tidplan...",
+    "submit": "Skicka Meddelande",
+    "submitting": "Skickar...",
+    "success": "Tack! Vi hör av oss snart.",
+    "whatsapp": "Chatta på WhatsApp",
+    "officeTitle": "Vårt Kontor",
+    "officeAddress": "Marbella, Costa del Sol, Spanien",
+    "officePhone": "+34 635 216 787",
+    "officeEmail": "info@marbellasol.com",
+    "officeHours": "Mån–Fre: 9:00–19:00 | Lör: 10:00–15:00"
+  },
+  "footer": {
+    "tagline": "Nästa Generations Fastigheter vid Costa del Sol",
+    "rights": "Alla rättigheter förbehållna.",
+    "privacy": "Integritetspolicy",
+    "terms": "Användarvillkor",
+    "whatsapp": "WhatsApp Oss"
+  },
+  "agentsPage": {
+    "title": "Vårt Mäklarteam",
+    "subtitle": "Fem specialister. Fem marknader. Ett gemensamt uppdrag — att hitta din perfekta fastighet vid Costa del Sol.",
+    "visitWebsite": "Besök Webbplats",
+    "sendEmail": "Skicka E-post"
+  },
+  "developmentsPage": {
+    "title": "Våra Projekt",
+    "subtitle": "Exklusiva nybyggnadsmöjligheter i Marbella, Estepona och hela Costa del Sol.",
+    "location": "Läge",
+    "status": "Status",
+    "price": "Startpris",
+    "inquire": "Förfråga Nu"
+  },
+  "blogPage": {
+    "title": "Fastighetsblogg",
+    "subtitle": "Fördjupade guider och marknadsinsikter för internationella fastighetsköpare i Spanien."
+  }
+}

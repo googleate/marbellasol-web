@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "agents": "Agentes",
+    "developments": "Promociones",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "agentLogin": "Acceso Agentes →"
+  },
+  "hero": {
+    "headline": "Tu Propiedad Ideal en la Costa del Sol",
+    "subheadline": "Asesoramiento experto, promociones exclusivas y un enfoque de nueva generación en el sector inmobiliario de Marbella.",
+    "cta": "Solicitar Información",
+    "ctaSecondary": "Ver Promociones"
+  },
+  "valueProps": {
+    "title": "¿Por Qué MARBELLASOL?",
+    "prop1Title": "Experiencia Internacional",
+    "prop1Desc": "Nuestro equipo multilingüe atiende a compradores de toda Europa, con profundo conocimiento local de la Costa del Sol.",
+    "prop2Title": "Promociones Exclusivas",
+    "prop2Desc": "Accede a listados fuera de mercado y precios de prelanzamiento en los desarrollos más solicitados de la región.",
+    "prop3Title": "Servicio Integral",
+    "prop3Desc": "Desde la búsqueda de propiedad hasta la asesoría legal y la entrega de llaves — gestionamos cada paso de tu compra.",
+    "prop4Title": "Plataforma IA",
+    "prop4Desc": "Nuestra plataforma de nueva generación te conecta con la propiedad y el agente adecuado en el momento oportuno."
+  },
+  "agents": {
+    "title": "Conoce a Nuestros Agentes",
+    "subtitle": "Especialistas que conocen tu mercado, tu idioma y tu visión.",
+    "contact": "Contactar Agente",
+    "viewAll": "Ver Todos los Agentes"
+  },
+  "developments": {
+    "title": "Promociones Destacadas",
+    "subtitle": "Propiedades seleccionadas de los mejores promotores de la Costa del Sol.",
+    "viewAll": "Ver Todas las Promociones",
+    "exclusiveListing": "Listado Exclusivo",
+    "premiumDevelopment": "Promoción Premium",
+    "learnMore": "Saber Más",
+    "from": "Desde"
+  },
+  "blog": {
+    "title": "Guías Inmobiliarias",
+    "subtitle": "Guías expertos sobre compra de propiedades en España, oportunidades de inversión y análisis de mercado.",
+    "readMore": "Leer Más",
+    "viewAll": "Ver Todos los Artículos"
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "Dinos qué estás buscando y uno de nuestros especialistas se pondrá en contacto en 24 horas.",
+    "name": "Nombre Completo",
+    "email": "Correo Electrónico",
+    "phone": "Número de Teléfono",
+    "message": "Tu Mensaje",
+    "messagePlaceholder": "Cuéntanos sobre tu propiedad ideal — ubicación, presupuesto, plazos...",
+    "submit": "Enviar Mensaje",
+    "submitting": "Enviando...",
+    "success": "¡Gracias! Nos pondremos en contacto pronto.",
+    "whatsapp": "Chatear por WhatsApp",
+    "officeTitle": "Nuestra Oficina",
+    "officeAddress": "Marbella, Costa del Sol, España",
+    "officePhone": "+34 635 216 787",
+    "officeEmail": "info@marbellasol.com",
+    "officeHours": "Lun–Vie: 9:00–19:00 | Sáb: 10:00–15:00"
+  },
+  "footer": {
+    "tagline": "El Inmobiliario de Nueva Generación en Costa del Sol",
+    "rights": "Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "whatsapp": "Escríbenos por WhatsApp"
+  },
+  "agentsPage": {
+    "title": "Nuestro Equipo de Agentes",
+    "subtitle": "Cinco especialistas. Cinco mercados. Una misión compartida: encontrar tu propiedad perfecta en la Costa del Sol.",
+    "visitWebsite": "Visitar Web",
+    "sendEmail": "Enviar Email"
+  },
+  "developmentsPage": {
+    "title": "Nuestras Promociones",
+    "subtitle": "Oportunidades exclusivas de obra nueva en Marbella, Estepona y toda la Costa del Sol.",
+    "location": "Ubicación",
+    "status": "Estado",
+    "price": "Precio Inicial",
+    "inquire": "Solicitar Info"
+  },
+  "blogPage": {
+    "title": "Blog Inmobiliario",
+    "subtitle": "Guías detalladas e información de mercado para compradores internacionales de propiedades en España."
+  }
+}

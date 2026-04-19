@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "agents": "Agents",
+    "developments": "Programmes",
+    "blog": "Blog",
+    "contact": "Contact",
+    "agentLogin": "Espace Agent →"
+  },
+  "hero": {
+    "headline": "Votre Propriété de Rêve sur la Costa del Sol",
+    "subheadline": "Conseil expert, programmes exclusifs et une approche nouvelle génération de l'immobilier à Marbella.",
+    "cta": "Demander des Infos",
+    "ctaSecondary": "Voir les Programmes"
+  },
+  "valueProps": {
+    "title": "Pourquoi MARBELLASOL ?",
+    "prop1Title": "Expertise Internationale",
+    "prop1Desc": "Notre équipe multilingue accompagne les acheteurs de toute l'Europe avec une connaissance approfondie de la Costa del Sol.",
+    "prop2Title": "Programmes Exclusifs",
+    "prop2Desc": "Accédez à des listings hors marché et des prix de prélancement sur les programmes les plus recherchés de la région.",
+    "prop3Title": "Service Complet",
+    "prop3Desc": "De la recherche de bien jusqu'à la remise des clés — nous gérons chaque étape de votre acquisition.",
+    "prop4Title": "Plateforme IA",
+    "prop4Desc": "Notre plateforme nouvelle génération vous connecte avec la bonne propriété et le bon agent au bon moment."
+  },
+  "agents": {
+    "title": "Rencontrez Nos Agents",
+    "subtitle": "Des spécialistes qui comprennent votre marché, votre langue et votre vision.",
+    "contact": "Contacter l'Agent",
+    "viewAll": "Voir Tous les Agents"
+  },
+  "developments": {
+    "title": "Programmes en Vedette",
+    "subtitle": "Des propriétés sélectionnées auprès des meilleurs promoteurs de la Costa del Sol.",
+    "viewAll": "Voir Tous les Programmes",
+    "exclusiveListing": "Listing Exclusif",
+    "premiumDevelopment": "Programme Premium",
+    "learnMore": "En Savoir Plus",
+    "from": "À partir de"
+  },
+  "blog": {
+    "title": "Guides Immobiliers",
+    "subtitle": "Guides experts sur l'achat immobilier en Espagne, les opportunités d'investissement et l'analyse de marché.",
+    "readMore": "Lire la Suite",
+    "viewAll": "Voir Tous les Articles"
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "subtitle": "Dites-nous ce que vous cherchez et l'un de nos spécialistes vous contactera sous 24 heures.",
+    "name": "Nom Complet",
+    "email": "Adresse E-mail",
+    "phone": "Numéro de Téléphone",
+    "message": "Votre Message",
+    "messagePlaceholder": "Décrivez votre propriété idéale — emplacement, budget, calendrier...",
+    "submit": "Envoyer le Message",
+    "submitting": "Envoi en cours...",
+    "success": "Merci ! Nous vous recontacterons très bientôt.",
+    "whatsapp": "Discuter sur WhatsApp",
+    "officeTitle": "Notre Bureau",
+    "officeAddress": "Marbella, Costa del Sol, Espagne",
+    "officePhone": "+34 635 216 787",
+    "officeEmail": "info@marbellasol.com",
+    "officeHours": "Lun–Ven : 9h00–19h00 | Sam : 10h00–15h00"
+  },
+  "footer": {
+    "tagline": "L'Immobilier Nouvelle Génération sur la Costa del Sol",
+    "rights": "Tous droits réservés.",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation",
+    "whatsapp": "Nous Écrire sur WhatsApp"
+  },
+  "agentsPage": {
+    "title": "Notre Équipe d'Agents",
+    "subtitle": "Cinq spécialistes. Cinq marchés. Une mission commune — trouver votre propriété idéale sur la Costa del Sol.",
+    "visitWebsite": "Visiter le Site",
+    "sendEmail": "Envoyer un E-mail"
+  },
+  "developmentsPage": {
+    "title": "Nos Programmes",
+    "subtitle": "Opportunités exclusives en neuf à Marbella, Estepona et sur toute la Costa del Sol.",
+    "location": "Emplacement",
+    "status": "Statut",
+    "price": "Prix de Départ",
+    "inquire": "Demander Infos"
+  },
+  "blogPage": {
+    "title": "Blog Immobilier",
+    "subtitle": "Guides approfondis et analyses de marché pour les acheteurs internationaux de biens en Espagne."
+  }
+}
