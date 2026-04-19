@@ -21,7 +21,11 @@ export const metadata: Metadata = {
     'international property advisor',
     'Golden Visa Spain',
   ],
-  openGraph: {
+  icons: {
+      icon: '/favicon.ico',
+      apple: '/apple-touch-icon.png',
+    },
+    openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://marbellasol.com',
@@ -31,7 +35,7 @@ export const metadata: Metadata = {
       'Expert real estate agency in Marbella. Luxury properties, exclusive developments, and multilingual agents serving international buyers.',
     images: [
       {
-        url: '/logo.jpg',
+        url: '/logo-icon.png',
         width: 1200,
         height: 630,
         alt: 'MARBELLASOL Real Estate',

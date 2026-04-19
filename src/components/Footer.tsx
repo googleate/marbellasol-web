@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center gap-3 mb-4">
               <Image
-                src="/logo.jpg"
+                src="/logo-icon.png"
                 alt="MARBELLASOL"
                 width={48}
                 height={48}
