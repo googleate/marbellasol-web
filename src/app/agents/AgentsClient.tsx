@@ -35,9 +35,13 @@ export default function AgentsClient() {
                   className="h-48 flex items-center justify-center relative"
                   style={{ background: 'linear-gradient(135deg, #1a4a4a, #2a6a6a)' }}
                 >
-                  <div className="w-24 h-24 rounded-full bg-white/10 border-4 border-[#c9a84c]/50 flex items-center justify-center">
-                    <span className="text-4xl font-bold text-[#c9a84c]">
-                      {agent.name.split(' ').map((n) => n[0]).join('')}
+                  {/* Initials avatar */}
+                  <div
+                    className="w-24 h-24 rounded-full border-4 border-[#c9a84c]/50 flex items-center justify-center"
+                    style={{ backgroundColor: '#1a4a4a' }}
+                  >
+                    <span className="text-3xl font-bold text-white">
+                      {agent.name.split(' ').map((n) => n[0]).join('').substring(0, 2)}
                     </span>
                   </div>
                   <div className="absolute top-4 right-4">
@@ -57,7 +61,7 @@ export default function AgentsClient() {
                   <p className="text-gray-600 text-sm leading-relaxed mb-5">{agent.description}</p>
 
                   {/* Languages */}
-                  <div className="flex flex-wrap gap-1.5 mb-5">
+                  <div className="flex flex-wrap gap-1.5 mb-4">
                     {agent.languages.map((lang) => (
                       <span
                         key={lang}
@@ -67,6 +71,48 @@ export default function AgentsClient() {
                       </span>
                     ))}
                   </div>
+
+                  {/* Social links */}
+                  {(agent.website || agent.instagram || agent.youtube) && (
+                    <div className="flex items-center gap-3 mb-5">
+                      {agent.website && (
+                        <a
+                          href={agent.website}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          title="Website"
+                          className="flex items-center gap-1 text-xs text-[#1a4a4a] hover:text-[#c9a84c] transition-colors font-medium"
+                        >
+                          <span className="text-base">🌐</span>
+                          <span className="hidden sm:inline">Website</span>
+                        </a>
+                      )}
+                      {agent.instagram && (
+                        <a
+                          href={agent.instagram}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          title="Instagram"
+                          className="flex items-center gap-1 text-xs text-[#1a4a4a] hover:text-[#c9a84c] transition-colors font-medium"
+                        >
+                          <span className="text-base">📸</span>
+                          <span className="hidden sm:inline">Instagram</span>
+                        </a>
+                      )}
+                      {agent.youtube && (
+                        <a
+                          href={agent.youtube}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          title="YouTube"
+                          className="flex items-center gap-1 text-xs text-[#1a4a4a] hover:text-[#c9a84c] transition-colors font-medium"
+                        >
+                          <span className="text-base">▶️</span>
+                          <span className="hidden sm:inline">YouTube</span>
+                        </a>
+                      )}
+                    </div>
+                  )}
 
                   {/* CTAs */}
                   <div className="flex flex-col gap-2">

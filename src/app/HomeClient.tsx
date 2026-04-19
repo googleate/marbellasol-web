@@ -35,10 +35,11 @@ export default function HomeClient() {
   return (
     <>
       {/* Hero Section */}
+      {/* // TODO: replace with team photo */}
       <section
         className="relative min-h-screen flex items-center justify-center overflow-hidden"
         style={{
-          background: 'linear-gradient(135deg, #0f2f2f 0%, #1a4a4a 40%, #2a6a6a 70%, #1a4a4a 100%)',
+          background: 'linear-gradient(135deg, #0d3333 0%, #1a5c3a 40%, #2a6a6a 70%, #1a5c3a 100%)',
         }}
       >
         {/* Decorative overlay */}
@@ -100,7 +101,7 @@ export default function HomeClient() {
           {/* Stats */}
           <div className="mt-16 grid grid-cols-3 gap-8 max-w-lg mx-auto">
             {[
-              { value: '5', label: 'Expert Agents' },
+              { value: '6', label: 'Expert Agents' },
               { value: '10+', label: 'Languages Spoken' },
               { value: '500+', label: 'Properties Sold' },
             ].map((stat) => (
@@ -179,13 +180,16 @@ export default function HomeClient() {
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-6">
             {agents.map((agent) => (
               <div key={agent.id} className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow text-center">
-                {/* Photo placeholder */}
-                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-[#1a4a4a] to-[#2a6a6a] mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-2xl font-bold text-[#c9a84c]">
-                    {agent.name.charAt(0)}
+                {/* Initials avatar placeholder */}
+                <div
+                  className="w-20 h-20 rounded-full mx-auto mb-4 flex items-center justify-center"
+                  style={{ backgroundColor: '#1a4a4a' }}
+                >
+                  <span className="text-xl font-bold text-white">
+                    {agent.name.split(' ').map((n) => n[0]).join('').substring(0, 2)}
                   </span>
                 </div>
                 <h3 className="font-bold text-[#1a4a4a] mb-1">{agent.name}</h3>
